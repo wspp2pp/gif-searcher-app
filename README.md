@@ -1,1 +1,1 @@
-Una APP hecha con REACT en la cual podés buscar gifs de tu interes.
+An application made with react that allows you to search for gifs of your interest :)
