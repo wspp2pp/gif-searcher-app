@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export const AddCategory = ( {setcategories} ) => {
 
     // Texto del input
-    const [inputValue, setinputValue] = useState( 'Argentina' );
+    const [inputValue, setinputValue] = useState( '' );
 
 
     const handleImputChange = (caracter) => {
@@ -34,6 +34,7 @@ export const AddCategory = ( {setcategories} ) => {
         <form onSubmit = {handleSubmit}>
             <input
                 type='text'
+                placeholder='Tyoe your search'
                 // El contenido es igual a lo que este en inputValue
                 value={ inputValue }
                 // Cada vez que cambia el contenido
